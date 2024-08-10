@@ -61,7 +61,40 @@ console.log(Object.values(tinderUser));  // for calling the all values.
 console.log(Object.entries(tinderUser));  // for calling the both with string.
 
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // check karta hai ki wha hai ki nahi.
+//console.log(tinderUser.hasOwnProperty('isLoggedIn')); // check karta hai ki wha hai ki nahi.  // hasOwnProperty.
+
+
+//course Instructor.
+
+
+const course = {
+
+    coursename : "js in hindi",
+    price : "999",
+    courseInstructor : "hitesh",
+    
+}
+
+ //console.log(course.courseInstructor);   // This method is good but problem is arriessess when you call the same function multiple times.
+
+ const {courseInstructor: instructor} = course   // destructure
+  
+//console.log(courseInstructor);
+
+console.log(instructor);
+
+
+// API => apna kaam kisi aur do de dena.
+
+// jesan.
+
+/*{
+    "name": "kushal"           // esme dono string hota hai
+    "coursename": "js in hindi"
+    "price": "free"
+
+}  */
+ 
 
 
 
