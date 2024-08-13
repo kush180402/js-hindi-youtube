@@ -67,7 +67,7 @@ if (userLoggedIn && debitCard && 2==2){
     console.log("allow to buy course");
     
 }
-if(loggedInFromGoogle || loggedInFromEmail ){
+if(loggedInFromGoogle || loggedInFromEmail  ){
     console.log("user logged in");
     
 }
